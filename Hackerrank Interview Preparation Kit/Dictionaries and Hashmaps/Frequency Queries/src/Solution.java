@@ -33,7 +33,7 @@ public class Solution {
             }
             else if (queries.get(i).get(0) == 3) {
                 //O(n) complexity of containsValue
-                //it can be solved with 2nd map counting the 
+                //it can be solved with 2nd map counting the frequency of each element
                 if(map.containsValue(queries.get(i).get(1))) {
                    current.add(1);
                 }
